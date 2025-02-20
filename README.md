@@ -1,4 +1,4 @@
-##**"Targeting heuristics for cost-optimized institutional incentives in heterogeneous networked populations"**
+# Targeting heuristics for cost-optimized institutional incentives in heterogeneous networked populations
 
 **Authors:** Dhruv Mittal, Fátima González-Novo López, Sara Constantino, Shaul Shalvi, Xiaojie Chen, and Víctor V. Vasconcelos
 
