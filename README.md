@@ -15,43 +15,37 @@ In a world facing urgent challenges—from climate change to pandemics—coordin
 
 The repository includes the following Python scripts:
 
-1. `one_run_network.py`: This script simulates population dynamics with heterogenous preferences on networks. It implements a model where individuals update their choices based on their preferences and the choices of their neighbors on a fixed graph.
+1. **`generate_network.py`**  
+   Contains functions to generate network graphs using various models (e.g., Erdos-Rényi, Barabasi-Albert, Watts-Strogatz) and compute network metrics such as clustering and centrality which serve as criteria for targeted incentives.
 
-2. `one_run_well_mixed.py`: This script simulates population dynamics with heterogenous preferences connected probabilistically, mimicking a well-mixed limit. It models a scenario where individuals' choices are influenced by their preferences, the choices of randomly sampled neighbors.
+2. **`generate_preference_distribution.py`**  
+   Contains a function to generate a list of preferences based on a symmetric beta function
 
-3. `one_run_net_dynamic.py`: This script simulates population dynamics with evolving preferences on networks. It implements a model where individuals update their choices based on their evolving preferences (which are shared by all agents) and the choices of their neighbors on a fixed graph.
+2. **`segregated_networks.py`**  
+   Contains functions to generate segregated networks based on homophilous preferential attachment and the stochastic block model.
 
-4. `adjacency_matrix_generator.py`: This function returns the adjacency matrix of the required graph (Barabasi-Albert or Erdos Renyi)
+4. **`simulation.py`**  
+   Implements the simulation of behavior adoption dynamics on a network in response to interventions. It outputs the the cost of incentives, the time taken to reach the required adoption level, the final adoption and the Gini coefficients of the incentive distribution
 
-5. `conformity_placement_on_network.py`: This function assigns conformity to the nodes of a given network to achieve the required correlation between anti-conformity(non-conformity) and node degree.
+5. **`Manuscript_figures.ipynb`**  
+   A Jupyter Notebook that generates the figures presented in the main manuscript. The notebook combines simulation outputs and visualization routines to illustrate the cost-effectiveness, timing, and equity of various targeting strategies.
 
-6. `Manuscript_figures.ipynb`: This notebook can be used to generate figures from the main text. This notebook uses the above scripts to initialize and run simulations.
+6. **`SI_figures.ipynb`**  
+   A Jupyter Notebook that generates some selected figures presented in the Supplementary manuscript. The notebook includes the analytical model and the code to run simulations on real-world networks( Adoloscent Health network)
+
 
 ## Usage
 
 To use the code:
 
 1. Ensure you have Python installed on your system.
-2. These scripts are completely based on Numpy. 
+2. These scripts are based on Numpy, NetworkX and Scipy. 
 
 
-## Output of simulation scripts
-
-`one_run_network.py` and `one_run_well_mixed.py` have the following output:
-
-- Equilibrium fraction of choice A in the population
-- Equilibrium alignment of choice and preference for the entire population.
-- Volatility in choices at the end of the simulation
-
-  
-`one_run_net_dynamic.py` has the following output: 
-
-- Time series of the fraction of individuals choosing option A in the conforming and the anti-conforming subpopulations, as well as the entire population.
-- Average alignment of choice and preference for the conforming and the anti-conforming subpopulations.
 
 ## License
 
-This GUI is distributed under the Creative Commons Attribution 4.0 International license. The DOI of the project is https://doi.org/10.5281/zenodo.12707357
+This GUI is distributed under the Creative Commons Attribution 4.0 International license. The DOI of the project is XXXXXX
 
 
 ## Acknowledgments
