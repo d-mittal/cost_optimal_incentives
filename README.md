@@ -1,6 +1,6 @@
 # Targeting heuristics for cost-optimized institutional incentives in heterogeneous networked populations
 
-**Authors:** Dhruv Mittal, Fátima González-Novo López, Sara Constantino, Shaul Shalvi, Xiaojie Chen, and Víctor V. Vasconcelos
+**Authors:** Dhruv Mittal, Fátima González-Novo López, Sara Constantino, Shaul Shalvi, Xiaojie Chen, and Vítor V. Vasconcelos
 
 This repository contains Python code for simulating and analyzing cost-optimized institutional incentives in heterogeneous networked populations. The code implements a game-theoretical framework in which individuals update their choices based on both their intrinsic preferences and the influence of their neighbors in a network. Through this model, various targeting heuristics are evaluated to determine which strategies minimize intervention costs while ensuring rapid and equitable adoption of new behaviors.
 
