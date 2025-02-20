@@ -84,7 +84,7 @@ def gen_net(network, N, z, ws_p, rndseed, strategy_type, p_in):
     A = A.astype('int8')  # Cast the matrix to int8 type
     return A, criteria_value
 
-def generate_criteria_value(A, strategy_type):
+def gen_criteria_value(A, strategy_type):
     """
     Computes node criteria values (such as clustering coefficients or closeness centrality)
     from a given adjacency matrix.
