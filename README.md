@@ -30,8 +30,8 @@ The repository includes the following Python scripts:
 5. **`Manuscript_figures.ipynb`**  
    A Jupyter Notebook that generates the figures presented in the main manuscript. The notebook combines simulation outputs and visualization routines to illustrate the cost-effectiveness, timing, and equity of various targeting strategies.
 
-6. **`SI_figures.ipynb`**  
-   A Jupyter Notebook that generates some selected figures presented in the Supplementary manuscript. The notebook includes the analytical model and the code to run simulations on real-world networks( Adoloscent Health network)
+6. **`Anlytical_model.ipynb`**  
+   A Jupyter Notebook that the analytical model based on Markov chain analysis and a mean field approach.
 
 
 ## Usage
