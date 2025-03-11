@@ -1,4 +1,4 @@
-# Targeting heuristics for cost-optimized institutional incentives in heterogeneous networked populations
+# Targeted incentives for social tipping in heterogeneous networked populations
 
 **Authors:** Dhruv Mittal, Fátima González-Novo López, Sara Constantino, Shaul Shalvi, Xiaojie Chen, and Vítor V. Vasconcelos
 
@@ -9,7 +9,7 @@ This repository contains Python code for simulating and analyzing cost-optimized
 
 
 ## Abstract
-In a world facing urgent challenges—from climate change to pandemics—coordinated interventions are essential to catalyze large-scale behavioral shifts. Policy-makers often resort to incentive schemes to overcome resistance to change; however, the success of such interventions crucially depends on whom to target and how incentives are distributed. This project presents a computational framework that integrates individual heterogeneity, network structure, and dynamic decision-making. Our simulations reveal that optimal targeting strategies vary with preference distributions, network topology, and the dynamics of social influence, offering actionable insights for cost-effective and equitable policy design.
+Many societal challenges, such as climate change or disease outbreaks, require coordinated behavioral changes. For many behaviors, the tendency of individuals to adhere to social norms can reinforce the status quo. However, these same social processes can also result in rapid, self-reinforcing change. Interventions may be strategically targeted to initiate endogenous social change processes, often referred to as social tipping. While recent research has considered how the size and targeting of such interventions impact their effectiveness at bringing about change, they tend to overlook constraints faced by policymakers, including the cost, speed, and distributional consequences of interventions. To address this complexity, we introduce a game-theoretic framework that includes heterogeneous agents and networks of local influence. We implement various targeting heuristics based on information about individual preferences and commonly used local network properties to identify individuals to incentivize. Analytical and simulation results suggest that there is a trade-off between preventing backsliding among targeted individuals and promoting change among non-targeted individuals. Thus, where the change is initiated in the population and the direction in which it propagates is essential to the effectiveness of interventions. We identify cost-optimal strategies under different scenarios, such as varying levels of resistance to change, preference heterogeneity, and homophily. These results provide insights that can be experimentally tested and help policymakers to better direct incentives.
 
 ## Code Overview
 
