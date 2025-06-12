@@ -2,7 +2,7 @@
 
 **Authors:** Dhruv Mittal, Fátima González-Novo López, Sara Constantino, Shaul Shalvi, Xiaojie Chen, and Vítor V. Vasconcelos
 
-This repository contains Python code for simulating and analyzing cost-optimized institutional incentives in heterogeneous networked populations. The code implements a game-theoretical framework in which individuals update their choices based on both their intrinsic preferences and the influence of their neighbors in a network. Through this model, various targeting heuristics are evaluated to determine which strategies minimize intervention costs while ensuring rapid and equitable adoption of new behaviors.
+This repository contains Python code for simulating and analyzing cost-optimized institutional incentives in heterogeneous networked populations. The code implements a game-theoretical framework in which individuals update their choices based on both their intrinsic preferences and the influence of their neighbors in a network. Through this model, various targeting heuristics are evaluated to determine which strategies minimize intervention costs while ensuring rapid and equitable adoption of new behaviors. Representative Survey data from the US regarding support for climate change is also included, along with willingness-to-pay(WTP) analysis, synthetic populations, and associated networks from the survey sample, which help ground model assumptions.
 
 
 ---
@@ -31,7 +31,15 @@ The repository includes the following Python scripts:
    A Jupyter Notebook that generates the figures presented in the main manuscript. The notebook combines simulation outputs and visualization routines to illustrate the cost-effectiveness, timing, and equity of various targeting strategies.
 
 6. **`Analytical_model.ipynb`**  
-   A Jupyter Notebook that the analytical model based on Markov chain analysis and a mean field approach.
+   A Jupyter Notebook with the analytical model based on Markov chain analysis and a mean field approach.
+
+7. **`WTP_analysis.ipynb`**  
+   A Jupyter Notebook that shows the WTP analysis of survey data and models the effect of demographic factors.
+
+7. **synthetic_population.ipynb`**  
+   A Jupyter Notebook that generates synthetic populations by sampling from the survey sample and creates associated homophilic networks using the SDA algorithm.
+    
+
 
 
 ## Usage
