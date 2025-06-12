@@ -36,7 +36,7 @@ The repository includes the following Python scripts:
 7. **`WTP_analysis.ipynb`**  
    A Jupyter Notebook that shows the WTP analysis of survey data and models the effect of demographic factors.
 
-7. **synthetic_population.ipynb`**  
+7. **`synthetic_population.ipynb`**  
    A Jupyter Notebook that generates synthetic populations by sampling from the survey sample and creates associated homophilic networks using the SDA algorithm.
     
 
